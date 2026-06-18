@@ -1,7 +1,7 @@
 
 /* ================for mobile================= */
 
-@media  (max-width:480px){
+@media (min-width:200px) and (max-width:768px){
     .navbar{
         flex-direction: column;
         align-items: stretch;

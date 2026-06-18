@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* ================Navbar=============== */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.left-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.blinkit-logo{
+    padding: 20px;
+    border-right: 1px solid #ccc;
+
+}
+
+
+.nav-address{
+    padding: 20px ;
+    padding-left:40px;
+    font-size: 18px;
+    color: #000;
+}
+
+.nav-address p{
+    font-size: 13px;
+}
+
+.nav-address h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+
+/* =========================Middle-navbar==================== */
+
+
+.middle-navbar{
+    flex-grow: 1;
+    display: flex;
+   
+}
+
+.search-bar button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    border: none;
+    background-color:transparent;
+
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+/* ==============Right-navbar===================== */
+
+.right-navbar{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.right-navbar button{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.right-navbar .last-btn{
+    background-color:rgb(12, 131, 31);
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    margin-right: 0px;
+}
+
+
+/* ============Hero-section===================== */
+
+.section-banner{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.hero-section img {
+    width: 100%;
+}
+
+/* =================Shop-banner============== */
+
+.shop-banner{
+    display: flex;
+    
+}
+
+.shop-banner img {
+    width: 28%;
+    padding: 5px;
+    margin-left: 11px;
+}
+
+
+/*=====================Shope-items===================*/
+
+
+.shope-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+
+}
+
+.Shope-items{
+    width:100%;
+
+}
+
+.Shope-items img {
+    width: 9.6%;
+}
+
+
+/* ===========Product-section==================== */
+
+
+.product-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.heading a{
+    font-size: 20px;
+    color: #318616;
+    margin-top: 4px;
+}
+
+.heading h2{
+    font-size: 26px;
+    color: #1c1c1c;
+    margin: 0px 0px 15px 10px;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 2%;
+}
+
+.product-item{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* box-shadow:  0px 0px 10px 2px #ccc; */
+}
+
+.product-item:hover{
+     box-shadow:  0px 0px 10px 2px #ccc; 
+}
+
+.product-item img{
+     width: 70%; 
+    text-align: center;
+     /* padding-left: 15px;  */
+     margin-left: 26px;
+    padding-top: 10px; 
+    
+}
+
+.product-item p {
+    font-size: 9px;
+    color: #363636;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.product-item h5{
+    font-size: 13px;
+    color: #1f1f1f;
+    margin: 10px 0px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.product-item h6 {
+    font-size: 12px ;
+    color: #666666;
+    padding-left: 15px;
+    font-weight: 100;
+}
+
+.product-item .btn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product-item .btn p{
+    font-size: 12px;
+    color: #1f1f1f;
+    margin: 23px 0px;
+}
+
+
+.product-item .btn button{
+    font-size: 13px;
+    background-color: #f7fff9;
+    color: #318616;
+     margin: 15px 10px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 5px;
+     border: 1px solid #318616;
+     font-weight: bold;
+     
+}
+
+
+/* ================Footer================================================== */
+
+
+.outer-footer{
+   padding: 20px 0px 0px 0px ;
+   max-width: 1280px;
+margin: 0 auto;
+}
+
+
+/* ============Inner-fooet1===================== */
+
+.inner-footer1{
+    
+    display: flex;
+    gap: 40px;
+    padding-left: 10px;
+    
+
+}
+
+.left-footer{
+    flex-basis: 30%;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+ .footer-link .link  li{
+    list-style: none;
+    padding: 5px;
+    /* margin: 5px 0px 0px 40px;  */
+    font-size: 14px;
+    color: #666666;
+}
+
+.left-footer h3{
+    font-size: 18px;
+    color: #000;
+    margin: 24px 0px;
+    
+}
+
+.categorey{
+    display: flex;
+}
+
+
+.right-footer{
+    flex-basis: 70%;
+    padding-right: 80px;
+}
+
+.right-footer h3 {
+    font-size: 18px;
+    color: #000;
+    margin: 24px 0px;
+}
+
+.right-footer a{
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #318616;
+}
+
+
+/* ====================inner-footer2=============================== */
+/* ====================middle-footer============================= */
+
+
+.middle-footer{
+    display: flex;
+     margin: 0 auto;
+    align-items: center;
+    
+    gap: 30px;
+    margin: 40px 15px 40px 15px ;
+    
+}
+ 
+.downlad{
+    display: flex;
+    gap: 30px;
+    
+}
+
+ .downlad img {
+    width: 15%;
+} 
+
+ .downlad p{
+    font-size: 14px;
+    color: #666666;
+    margin-top:15px ;
+} 
+
+.middle-footer .para p{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 8px;
+    
+} 
+
+ .icon-footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    
+
+} 
+
+
+
+.icon-footer i{
+    font-size: 28px;
+    color: #333;
+    cursor: pointer;
+    transition:  color 0.2s;
+    
+} 
+
+ .icon-footer i:hover{
+    color: #0c831f;
+} 
+
+
+/* =======================last-footer======================= */
+
+.last-footer{
+     margin-top: 40px;
+    margin-bottom: 12px; 
+    margin: 15px;
+    
+}
+
+.last-footer p{
+    font-size: 14px ;
+    color: #666666;
+}
